@@ -544,7 +544,7 @@ button.hamburger:hover{
 	
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:100px) {
   
 	
   .icon-content-wrapper {

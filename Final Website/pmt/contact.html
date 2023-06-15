@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Essentials</title>
+<link type="text/css" rel="stylesheet" href="../stylesheet.css">
+</head>
+
+<body>
+<script>
+function openNav() {
+  var x = document.getElementById("ham-menu");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+	document.getElementById("ham-img").src="../images/x.png";
+	
+  } else {
+    x.style.display = "none";
+	
+	document.getElementById("ham-img").src="../images/ham.png";
+  }
+}
+</script>
+<div class="small-bar">
+<p>519-748-5515</p>
+<p>|</p>
+<a href="mailto:pmt@pmtgroup.com">pmt@pmtgroup.com</a>
+</div>
+<div class="nav2">
+	<a href="pmt.html" class="logo"><img height="75px;" src="../images/pmt.png"></a>
+	<div class="links">
+		<a href="pmt.html">Home</a>
+		<p>|</p>
+		<a href="contact.html">Contact</a>
+		<p>|</p>
+		
+		<div class="dropdown" >
+			<a class="droplink">Products</a>
+				<div class="dropdown-links" >
+					<a href="thrive.html">Thrive! Milk Supplement</a>
+					<a href="nurse.html">Wet Nurse</a>
+					<a href="weatherguard.html">Weatherguard</a>
+				
+				</div>
+		</div>		
+		
+		<p>|</p>
+		<div class="dropdown">
+			<a class="droplink">Information</a>
+				<div class="dropdown-links" >
+					<a href="additives.html">Feed Additives</a>
+					<a href="carbon.html">Carbon 2M Activated Charcoal</a>
+					<a href="lipids.html">Essential Lipids 4 Life</a>
+				</div>
+		</div>
+</div>
+<button onClick="openNav()" class="hamburger"><img id="ham-img" height=35px src="../images/ham.png"></button>
+</div>
+<div id="ham-menu">
+		<a href="pmt.html">Home</a>
+		<br><br>
+		<a href="contact.html">Contact</a>
+		<br><br>
+		<a>Products ▾</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="thrive.html">Thrive</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="nurse.html">Wet-Nurse</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="weatherguard.html">Weatherguard</a>
+		<br><br>
+		<a>Information ▾</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="additives.html">Feed Additives</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="carbon.html">Carbon 2M</a>
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="lipids.html">Lipids 4 Life</a>
+		
+
+</div>
+	<div class="flavours-content-h1"  style="justify-content:center; border: solid 2px #bfbfbf;background-color:#e8e8e8;">
+					<h1 style="padding-top:0%; margin-bottom:2%; font-size:42px;" >Contact</h1>
+	</div>
+<div class="main-content-contact" style="padding-bottom:1%;">
+<div class="carbon-card-container" >
+				<div class="carbon-card" style="width:33%">
+					<img src="../images/essentials_abbotsford.jpg">
+					<h2>Essentials Inc.</h2>
+					<p>2610A Progressive Way <br>Abbotsford, British Columbia<br>Canada, V2T 6H9<br>Ph. (604-854-3112)<br>Fx. (604-854-3738)<br>Email: <a href="mailto:essentials@pmtgroup.com"> essentials@pmtgroup.com</a></p>
+					</div>
+  
+			<div class="carbon-card" style="width:33%">
+				<img src="../images/pmt_inc_ontario.jpg">
+				<h2>PMT Inc. Kitchener</h2>
+				<p>Unit 12 - 550 Trillium Dr.<br>Kitchener, ON<br>Canada, N2R 1K3<br>Ph. (519-748-5515)<br>Fax. (519-748-2663)</p></div>
+  
+			<div class="carbon-card" style="width:33%">
+				<img src="../images/pmt_head.jpg">
+				<h2>PMT Group Head Office</h2>
+				<p>2641 Albert Street N<br>PO Box 26028<br>Regina, Saskatchewan<br>Canada, S4R 8R7<br>	Ph: (306-721-6066)<br>Fax: (306-721-4733)<br>Email: <a href="mailto:pmt@pmtgroup.com"> pmt@pmtgroup.com</a></p>
+				</div>
+		</div>
+		<div class="carbon-card-container" style="padding-bottom:1%;">
+		<div class="carbon-card" style="height:400px; width: 50%; max-width:48%;">
+			<h2>Contact</h2>
+			<p>Fill out this form to contact us with any questions.</p>		
+		</div>
+		
+		<div class="carbon-card" style="height:400px; width: 50%; max-width:48%; ">
+			<form action="contact.php" style="padding:5%;">
+				<div class="seperate">
+					<div class="seperate-div">
+						<label for="fname">First Name:</label>
+						<input type="text" id="fname" name="fname" placeholder="Enter first name...">
+					</div>
+					<div class="seperate-div">
+						<label for="lname">Last Name:</label>
+						<input type="text" id="lname" name="lname" placeholder="Enter last name...">
+					</div>
+				</div>
+				<div class="seperate">
+					<div class="seperate-div">
+						<label for="email">Email Adress:</label>
+						<input type="text" id="email" name="email-adress" placeholder="Enter email adress...">
+					</div>
+					<div class="seperate-div">
+						<label for="email">Phone Number:</label>
+						<input type="text" id="phone" name="phone-num" placeholder="Enter phone number...">
+					</div>
+				</div>
+				<div class="seperate" style="flex-direction:column; width:100%; margin-right:0%;">
+				<label for="msg">Message:</label>
+				<input style="padding-bottom:9%; margin-right:1%;" type="text" id="msg" name="message" placeholder="Enter message...">
+				</div>
+				<button style="width:40%" class="download" type="submit" value="Submit">Submit</button>
+			
+			</form>
+		</div>
+		</div>
+		
+	<div class="back-top">
+<a style="text-decoration:none;" href="#top"><button class="download">Back to top</button></a>
+</div>
+	</div>
+	
+	</div>
+	
+	
+		
+</div>
+
+
+</div>
+<footer>
+<div class="footer-content">
+<p style="padding:0;"> 2023 PMT Inc.  | <a style="text-decoration:none;color:black;"href="contact.html">Contact</a> | <a style="text-decoration:none;color:black;" href="../essentials/essentials.html">Essentials</a> | <a style="text-decoration:none;color:black;" href="pmt.html">PMT Group</a></p>
+</div>
+
+</footer>
+	
+	
+	
+	
+</body>
+</html>
